@@ -1,6 +1,6 @@
-if (location.href != "https://lego.iwonder.repl.co/" ) {
+if (location.href != "https://asgwrd.github.io/" ) {
   if (document.cookie != "accessGranted=true") {
-    location.href = 'https://lego.iwonder.repl.co/';
+    location.href = 'https://asgwrd.github.io/';
   }
 }
 if (document.cookie == "")
@@ -11,7 +11,7 @@ if (document.cookie == "")
       if (inp_code == "687069") {
         document.cookie = "accessGranted= true; expires=Tue, 19 Jan 2038 04:14:07 GMT";
         alert('access granted (ps. bookmark the page after this.)');
-        location.href = 'https://lego.iwonder.repl.co/games';
+        location.href = 'https://asgwrd.github.io/games';
         
       }
     }
