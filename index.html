@@ -1,21 +1,13 @@
 <!DOCTYPE html>
 <html>
+<iframe frameborder="0" id="game" src="https://www.google.com/logos/2022/lawson/r1201/lawson.html?hl=en&sdoodles=1" scrolling="no" style="overflow:hidden"></iframe>
+<script>
+var w = window.innerWidth;
+var h = window.innerHeight;
 
-<head>
-  <link rel="icon" type="image/x-icon" href="/media/img/favicon.ico">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Lego Academy</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body>
-  <h1>Lego Academy</h1>
-  <script src="script.js"></script>
-  <hr class="rounded">
-  <input id="inputcode" type="password" class="input_code">
-  <p id="footer">Made by [REDACTED DUE TO RECENT PRINCIPAL MEETING] ;) also YOU are liable if you are caught using this by signing up you agree to these
-    terms!</p>
-</body>
+var x = document.getElementById("game");
+document.getElementById('game').setAttribute('height', h-20);
+document.getElementById('game').setAttribute('width', w-20);
+</script>
 
 </html>
